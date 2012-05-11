@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* app_updateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* app_updateAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* app_updateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* app_updateViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* app_updateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* app_updateViewController.m */; };
+		62B95FF9155AED590046BB71 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B95FF8155AED590046BB71 /* libz.1.2.5.dylib */; };
+		62B96000155AFAD10046BB71 /* fart17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62B95FFE155AFAD10046BB71 /* fart17.mp3 */; };
+		62B96001155AFAD10046BB71 /* fart18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62B95FFF155AFAD10046BB71 /* fart18.mp3 */; };
+		62B96007155AFC900046BB71 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B96006155AFC900046BB71 /* AudioToolbox.framework */; };
+		62B96009155AFC950046BB71 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B96008155AFC950046BB71 /* AVFoundation.framework */; };
+		62B9600C155AFD7D0046BB71 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 62B9600A155AFD7D0046BB71 /* pew-pew-lei.caf */; };
+		62B9600D155AFD7D0046BB71 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 62B9600B155AFD7D0046BB71 /* background-music-aac.caf */; };
+		62B9600F155B05BE0046BB71 /* GivingUpTheGun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62B9600E155B05BE0046BB71 /* GivingUpTheGun.mp3 */; };
+		62B96015155B25C70046BB71 /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 62B96014155B25C70046BB71 /* photo5.png */; };
+		62B96017155B27080046BB71 /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = 62B96016155B27070046BB71 /* slow.png */; };
+		62B9601A155B37FB0046BB71 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B96019155B37FB0046BB71 /* MainWindow-iPad.xib */; };
+		9C0EF930115E4783003A9FFF /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0EF924115E4783003A9FFF /* ioapi.c */; };
+		9C0EF931115E4783003A9FFF /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0EF926115E4783003A9FFF /* mztools.c */; };
+		9C0EF932115E4783003A9FFF /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0EF928115E4783003A9FFF /* unzip.c */; };
+		9C0EF933115E4783003A9FFF /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0EF92A115E4783003A9FFF /* zip.c */; };
+		9C0EF934115E4783003A9FFF /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C0EF92D115E4783003A9FFF /* ZipArchive.mm */; };
+		9C0EF9DE115E52EA003A9FFF /* 40-inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0EF9DD115E52EA003A9FFF /* 40-inbox.png */; };
+		9C0EF9E5115E536C003A9FFF /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C0EF9E4115E536C003A9FFF /* Readme.txt */; };
+		9C6B333C115E85B2002D24E7 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9C6B333A115E85B2002D24E7 /* 1.jpeg */; };
+		9C6B333D115E85B2002D24E7 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9C6B333B115E85B2002D24E7 /* 2.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* app_updateAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = app_updateAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* app_updateAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = app_updateAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* app-update.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-update.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* app_updateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = app_updateViewController.xib; path = ../app_updateViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* app_updateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = app_updateViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* app_updateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = app_updateViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* app_update_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = app_update_Prefix.pch; sourceTree = "<group>"; };
+		62B95FF8155AED590046BB71 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		62B95FFE155AFAD10046BB71 /* fart17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart17.mp3; sourceTree = "<group>"; };
+		62B95FFF155AFAD10046BB71 /* fart18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart18.mp3; sourceTree = "<group>"; };
+		62B96006155AFC900046BB71 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		62B96008155AFC950046BB71 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		62B9600A155AFD7D0046BB71 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		62B9600B155AFD7D0046BB71 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		62B9600E155B05BE0046BB71 /* GivingUpTheGun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GivingUpTheGun.mp3; sourceTree = "<group>"; };
+		62B96014155B25C70046BB71 /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
+		62B96016155B27070046BB71 /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
+		62B96019155B37FB0046BB71 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* app_update-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "app_update-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9C0EF91F115E475F003A9FFF /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		9C0EF923115E4783003A9FFF /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		9C0EF924115E4783003A9FFF /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		9C0EF925115E4783003A9FFF /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		9C0EF926115E4783003A9FFF /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		9C0EF927115E4783003A9FFF /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		9C0EF928115E4783003A9FFF /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		9C0EF929115E4783003A9FFF /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		9C0EF92A115E4783003A9FFF /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		9C0EF92B115E4783003A9FFF /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		9C0EF92C115E4783003A9FFF /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		9C0EF92D115E4783003A9FFF /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		9C0EF9DD115E52EA003A9FFF /* 40-inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40-inbox.png"; sourceTree = "<group>"; };
+		9C0EF9E4115E536C003A9FFF /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		9C6B333A115E85B2002D24E7 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		9C6B333B115E85B2002D24E7 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B96009155AFC950046BB71 /* AVFoundation.framework in Frameworks */,
+				62B96007155AFC900046BB71 /* AudioToolbox.framework in Frameworks */,
+				62B95FF9155AED590046BB71 /* libz.1.2.5.dylib in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9C0EF921115E4783003A9FFF /* ZipArchive */,
+				9C0EF8FF115E453E003A9FFF /* mainScreen */,
+				9C0EF8FE115E4535003A9FFF /* appDelegate */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* app-update.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				9C0EF9E4115E536C003A9FFF /* Readme.txt */,
+				9C0EF900115E4561003A9FFF /* config */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				62B96018155B37F60046BB71 /* iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* app_update_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62B96016155B27070046BB71 /* slow.png */,
+				62B96014155B25C70046BB71 /* photo5.png */,
+				62B9600E155B05BE0046BB71 /* GivingUpTheGun.mp3 */,
+				62B9600A155AFD7D0046BB71 /* pew-pew-lei.caf */,
+				62B9600B155AFD7D0046BB71 /* background-music-aac.caf */,
+				62B95FFE155AFAD10046BB71 /* fart17.mp3 */,
+				62B95FFF155AFAD10046BB71 /* fart18.mp3 */,
+				9C6B333A115E85B2002D24E7 /* 1.jpeg */,
+				9C6B333B115E85B2002D24E7 /* 2.jpeg */,
+				9C0EF9DD115E52EA003A9FFF /* 40-inbox.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62B95FF8155AED590046BB71 /* libz.1.2.5.dylib */,
+				62B96006155AFC900046BB71 /* AudioToolbox.framework */,
+				62B96008155AFC950046BB71 /* AVFoundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				9C0EF91F115E475F003A9FFF /* libz.1.2.3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62B96018155B37F60046BB71 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				62B96019155B37FB0046BB71 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		9C0EF8FE115E4535003A9FFF /* appDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* app_updateAppDelegate.h */,
+				1D3623250D0F684500981E51 /* app_updateAppDelegate.m */,
+			);
+			name = appDelegate;
+			sourceTree = "<group>";
+		};
+		9C0EF8FF115E453E003A9FFF /* mainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* app_updateViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* app_updateViewController.m */,
+				2899E5210DE3E06400AC0155 /* app_updateViewController.xib */,
+			);
+			name = mainScreen;
+			sourceTree = "<group>";
+		};
+		9C0EF900115E4561003A9FFF /* config */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* app_update-Info.plist */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		9C0EF921115E4783003A9FFF /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				9C0EF922115E4783003A9FFF /* minizip */,
+				9C0EF92C115E4783003A9FFF /* ZipArchive.h */,
+				9C0EF92D115E4783003A9FFF /* ZipArchive.mm */,
+			);
+			path = ZipArchive;
+			sourceTree = "<group>";
+		};
+		9C0EF922115E4783003A9FFF /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				9C0EF923115E4783003A9FFF /* crypt.h */,
+				9C0EF924115E4783003A9FFF /* ioapi.c */,
+				9C0EF925115E4783003A9FFF /* ioapi.h */,
+				9C0EF926115E4783003A9FFF /* mztools.c */,
+				9C0EF927115E4783003A9FFF /* mztools.h */,
+				9C0EF928115E4783003A9FFF /* unzip.c */,
+				9C0EF929115E4783003A9FFF /* unzip.h */,
+				9C0EF92A115E4783003A9FFF /* zip.c */,
+				9C0EF92B115E4783003A9FFF /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* app-update */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "app-update" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "app-update";
+			productName = "app-update";
+			productReference = 1D6058910D05DD3D006BFB54 /* app-update.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "app-update" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* app-update */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* app_updateViewController.xib in Resources */,
+				9C0EF9DE115E52EA003A9FFF /* 40-inbox.png in Resources */,
+				9C0EF9E5115E536C003A9FFF /* Readme.txt in Resources */,
+				9C6B333C115E85B2002D24E7 /* 1.jpeg in Resources */,
+				9C6B333D115E85B2002D24E7 /* 2.jpeg in Resources */,
+				62B96000155AFAD10046BB71 /* fart17.mp3 in Resources */,
+				62B96001155AFAD10046BB71 /* fart18.mp3 in Resources */,
+				62B9600C155AFD7D0046BB71 /* pew-pew-lei.caf in Resources */,
+				62B9600D155AFD7D0046BB71 /* background-music-aac.caf in Resources */,
+				62B9600F155B05BE0046BB71 /* GivingUpTheGun.mp3 in Resources */,
+				62B96015155B25C70046BB71 /* photo5.png in Resources */,
+				62B96017155B27080046BB71 /* slow.png in Resources */,
+				62B9601A155B37FB0046BB71 /* MainWindow-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* app_updateAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* app_updateViewController.m in Sources */,
+				9C0EF930115E4783003A9FFF /* ioapi.c in Sources */,
+				9C0EF931115E4783003A9FFF /* mztools.c in Sources */,
+				9C0EF932115E4783003A9FFF /* unzip.c in Sources */,
+				9C0EF933115E4783003A9FFF /* zip.c in Sources */,
+				9C0EF934115E4783003A9FFF /* ZipArchive.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = app_update_Prefix.pch;
+				INFOPLIST_FILE = "app_update-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "app-update";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = app_update_Prefix.pch;
+				INFOPLIST_FILE = "app_update-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "app-update";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "app-update" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "app-update" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
